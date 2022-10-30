@@ -1,0 +1,41 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply font-poppins
+  }
+  h1 {
+    @apply text-4xl 
+  }
+  h2 {
+    @apply text-3xl 
+  }
+  h5{
+    @apply text-xl
+  }
+}
+
+@tailwind components;
+
+@layer components {
+  .heading{
+    @apply text-cyan-500
+  }
+  
+  .songName {
+    @apply text-neutral-400
+  }
+  .player-music{
+    @apply bg-slate-800 !important
+  }
+  #timeColor {
+    @apply text-white
+  }
+}
+/* #rhap_current-time{
+  color: white !important
+}
+
+.rhap_time .rhap_total-time{
+  color: white !important
+} */
